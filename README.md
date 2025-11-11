@@ -1,5 +1,7 @@
 Pinouts for the v2 internet bridge. See unannotated images in the 'originals' directory.
 
+Main chips: STM32F411CEU6, RF chip: TI CC110L. The large chip on the reverse side of the board is for ethernet, I believe.
+
 Notes:
 - I was not able to get the UART0 and UART1 to output anything at various baud rates.
 - most of the pads can easily be traced to the STM32 pins using a multimeter in continuity mode.
